@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Web site created using create-react-app" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="%PUBLIC_URL%/windows11/Square44x44Logo.altform-unplated_targetsize-16.png"> -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700" rel="stylesheet"> -->
+    <title>Todo Task</title>
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="-1">
+  </head>
+  <body >
+    <div id="root"></div>
+    <script src="%PUBLIC_URL%/index.js"></script>
+    <script type="module">
+      import {
+        onCLS,
+        onFID,
+        onLCP,
+      } from 'https://unpkg.com/web-vitals@3/dist/web-vitals.attribution.js?module';
+    
+      onCLS(console.log);
+      onFID(console.log);
+      onLCP(console.log);
+    </script>
+  </body>
+</html>
